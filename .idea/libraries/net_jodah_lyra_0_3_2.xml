@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="net.jodah:lyra:0.3.2" type="repository">
+    <properties maven-id="net.jodah:lyra:0.3.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vendor/lyra-0.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/amqp-client-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/slf4j-api-1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/vendor/lyra-0.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/vendor/lyra-0.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
