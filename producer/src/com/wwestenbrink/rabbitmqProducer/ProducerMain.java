@@ -13,7 +13,7 @@ public class ProducerMain {
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
-        for (int i =1; i <=500;i++) {
+        for (int i =1; i <=100;i++) {
             String queue = "user"+i;
             channel.queueDeclare(queue, true, false, false, null);
             String time = new SimpleDateFormat("HH:mm:ss.SSS").format(Calendar.getInstance().getTime());

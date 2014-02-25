@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
 public class MainDialog extends JDialog implements TableModelListener {
     private static final String appTitle = "RabbitMQ user";
-    private static final int startClients = 500;
+    private static final int startClients = 100;
 
     private int clientsConnected = 0;
 
